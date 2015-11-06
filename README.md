@@ -5,7 +5,7 @@ The Complex module has a lot of extra functions so that it can be used for other
 
 I wrote this to learn Haskell and the hallowed Shunting Yard algorithm. Since that was my main goal, I didn't include too many functions, but they can be easily added.
 
-Supported Functions: exp, ln, sqrt, sin, cos, tan
+Supported Functions: exp, ln, sqrt, sin, cos, tan  
 Supported Operators: +,-,*,/,^
 
 For a full-blown evaluator, check out my Expression repository (it is written in Java though).
