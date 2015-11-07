@@ -8,7 +8,7 @@ toRPN :: [String] -> [String]
 toRPN x = fst (foldl sYard ([],[]) x)
 
 -- first element is output. second one is operator stack.
-sYard :: ([String],[String]) -> String -> ([String],[String])
+sYard :: ([a],[a]) -> a -> ([a],[a])
 sYard (out,op) x
     | isNumber' x = (x:out, op)
     | isFunction x = (out, x:op)
